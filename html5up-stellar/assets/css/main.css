@@ -129,7 +129,10 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		/*font-family: "Source Sans Pro", Helvetica, sans-serif;*/
+		/*font-family: "Source Sans Pro", Helvetica, sans-serif;*/
+		font-family: 'Roboto', 'PT Sans', 'Roboto Condensed', 'Lato', 'Seoge UI', 'Inter', 'Roboto', Calibri, Helvetica, Candara, Segoe, Optima, Arial, sans-serif;
+
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -175,7 +178,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-weight: 400;
+		font-weight: 500;
 	}
 
 	em, i {
@@ -2999,15 +3002,17 @@ input, select, textarea {
 			}
 
 			.spotlight .content header.major {
-				margin: 0 0 2em 0;
+				margin: 0 0 0 0;
 			}
 
 		.spotlight .image {
 			display: inline-block;
 			margin-left: 0em;
 			padding: 0.8em;
-			border-radius: 100%;
-			border: solid 1px;
+			/*border-radius: 5%;*/
+			border-radius: 5%;
+			/*border: solid 1px;*/
+			border: solid 0px;
 		}
 		.spotlight .profile {
 			  text-align: center;
@@ -3019,8 +3024,8 @@ input, select, textarea {
 
 		.spotlight .image img {
 			display: block;
-			border-radius: 100%;
-			width: 16em;
+			border-radius: 5%;
+			width: 15em;
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3331,7 +3336,7 @@ input, select, textarea {
 					font-size: 0.9em;
 				}
 
-		@media screen and (max-width: 736px) {
+		/* @media screen and (max-width: 736px) {
 
 			#nav {
 				display: none;
@@ -3341,14 +3346,16 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
-		}
+		} */
 
 /* Main */
 
 	#main {
 		background-color: #ffffff;
 		color: #636363;
+		/*color: #808080;*/
 		border-radius: 0.25em;
+		font-weight: 300;
 	}
 
 		#main input, #main select, #main textarea {
@@ -3361,10 +3368,14 @@ input, select, textarea {
 
 		#main strong, #main b {
 			color: #636363;
+			line-height: 1.5;
+			/*font-weight: 600;*/
+
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
 			color: #636363;
+			font-weight:400;
 		}
 
 		#main blockquote {
@@ -3593,7 +3604,7 @@ input, select, textarea {
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
+			padding: 3em 5em 3em 5em ;
 			border-top: solid 1px #dddddd;
 		}
 
@@ -3708,8 +3719,8 @@ input, select, textarea {
 	}
 
 		#footer > * {
-			width: calc(50% - 2em);
-			margin-left: 2em;
+			width: calc(100% - 2em);
+			margin-left: 2.5em;
 		}
 
 		#footer .copyright {
